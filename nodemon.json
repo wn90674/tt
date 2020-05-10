@@ -1,7 +1,7 @@
 {
     "ignore": ["**/*.test.ts", "**/*.spec.ts", ".git", "node_modules"],
-    "watch": ["src/*.ts"],
-    "exec": "npm start",
+    "watch": ["src/*.ts","MockData/*"],
+    "exec": "npm run start",
     "ext": "ts"
 }
 

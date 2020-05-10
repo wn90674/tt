@@ -1,6 +1,14 @@
 {
-    "code": 0,
-    "data": {
-        "str": "getList"
+    "result": {
+        "code": 2,
+        "data": {
+            "str": "getList",
+            "list|3-6":[{
+                "name":"@cname",
+                "date":"@date",
+                "age":"@natural(12,20)",
+                "gender|1":[0,1]
+            }]
+        }
     }
 }

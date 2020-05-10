@@ -1,7 +1,8 @@
 {
-    "method": "list",
-    "code": 0,
-    "data": {
-        "str": "delete"
+    "result": {
+        "code": 0,
+        "data": {
+            "str": "delete"
+        }
     }
 }

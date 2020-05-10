@@ -1,6 +1,16 @@
 {
-    "code": 0,
-    "data": {
-        "str": "test"
+  "result": [
+    {
+      "query": { "username": 1, "password": "001" },
+      "data": { "statusCode": "200", "data": "succuess1", "isException": false }
+    },
+    {
+      "query": { "username": "2", "password": "002" },
+      "data": { "statusCode": "200", "data": "succuess2", "isException": false }
+    },
+    {
+      "query": { "username": "3", "password": "004" },
+      "data": { "statusCode": "500", "data": "", "isException": true }
     }
+  ]
 }
